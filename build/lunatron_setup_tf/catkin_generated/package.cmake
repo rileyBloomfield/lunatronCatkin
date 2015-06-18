@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "lunatron_setup_tf")
+set(lunatron_setup_tf_MAINTAINER "rosbox <rosbox@todo.todo>")
+set(lunatron_setup_tf_DEPRECATED "")
+set(lunatron_setup_tf_VERSION "0.0.0")
+set(lunatron_setup_tf_BUILD_DEPENDS "geometry_msgs" "roscpp" "tf")
+set(lunatron_setup_tf_RUN_DEPENDS "geometry_msgs" "roscpp" "tf")
+set(lunatron_setup_tf_BUILDTOOL_DEPENDS "catkin")

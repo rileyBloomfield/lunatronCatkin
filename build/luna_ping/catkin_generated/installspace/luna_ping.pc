@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/install
+
+Name: luna_ping
+Description: Description of luna_ping
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/rosbox/catkin_ws/install/lib 
+Requires: 

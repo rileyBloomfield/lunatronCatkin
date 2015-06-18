@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "depth_cam")
+set(depth_cam_MAINTAINER "rosbox <rosbox@todo.todo>")
+set(depth_cam_DEPRECATED "")
+set(depth_cam_VERSION "0.0.0")
+set(depth_cam_BUILD_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs")
+set(depth_cam_RUN_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs")
+set(depth_cam_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/install
+
+Name: image_rotate
+Description: Description of image_rotate
+Version: 1.11.11
+Cflags: -I/home/rosbox/catkin_ws/install/include
+Libs: -L/home/rosbox/catkin_ws/install/lib 
+Requires: 

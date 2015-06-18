@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ground_velocity")
+set(ground_velocity_MAINTAINER "rosbox <rosbox@todo.todo>")
+set(ground_velocity_DEPRECATED "")
+set(ground_velocity_VERSION "0.0.0")
+set(ground_velocity_BUILD_DEPENDS "geometry_msgs" "roscpp" "rospy" "std_msgs")
+set(ground_velocity_RUN_DEPENDS "geometry_msgs" "roscpp" "rospy" "std_msgs")
+set(ground_velocity_BUILDTOOL_DEPENDS "catkin")

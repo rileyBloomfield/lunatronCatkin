@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/install
+
+Name: image_view
+Description: Description of image_view
+Version: 1.11.11
+Cflags: 
+Libs: -L/home/rosbox/catkin_ws/install/lib 
+Requires: 

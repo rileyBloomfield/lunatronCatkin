@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/devel
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.11.11
+Cflags: 
+Libs: -L/home/rosbox/catkin_ws/devel/lib 
+Requires: 

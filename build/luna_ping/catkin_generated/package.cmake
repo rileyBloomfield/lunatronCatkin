@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "luna_ping")
+set(luna_ping_MAINTAINER "Riley <rosbox@todo.todo>")
+set(luna_ping_DEPRECATED "")
+set(luna_ping_VERSION "0.0.1")
+set(luna_ping_BUILD_DEPENDS "roscpp" "std_msgs")
+set(luna_ping_RUN_DEPENDS "roscpp" "std_msgs")
+set(luna_ping_BUILDTOOL_DEPENDS "catkin")

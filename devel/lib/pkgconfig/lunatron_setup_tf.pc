@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/devel
+
+Name: lunatron_setup_tf
+Description: Description of lunatron_setup_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rosbox/catkin_ws/devel/lib 
+Requires: 

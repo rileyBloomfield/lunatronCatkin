@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/devel
+
+Name: image_proc
+Description: Description of image_proc
+Version: 1.11.11
+Cflags: -I/home/rosbox/catkin_ws/devel/include -I/home/rosbox/catkin_ws/src/image_pipeline/image_proc/include -I/opt/ros/hydro/include/opencv -I/opt/ros/hydro/include
+Libs: -L/home/rosbox/catkin_ws/devel/lib -limage_proc -l:/opt/ros/hydro/lib/libopencv_core.so.2.4.9 -l:/opt/ros/hydro/lib/libopencv_highgui.so.2.4.9 -l:/opt/ros/hydro/lib/libopencv_imgproc.so.2.4.9
+Requires: image_geometry roscpp sensor_msgs
