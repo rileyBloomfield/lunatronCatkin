@@ -745,6 +745,19 @@ ground_velocity/fast:
 .PHONY : ground_velocity/fast
 
 #=============================================================================
+# Target rules for targets named keyboard_teleop
+
+# Build rule for target.
+keyboard_teleop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 keyboard_teleop
+.PHONY : keyboard_teleop
+
+# fast build rule for target.
+keyboard_teleop/fast:
+	$(MAKE) -f keyboard_teleop/CMakeFiles/keyboard_teleop.dir/build.make keyboard_teleop/CMakeFiles/keyboard_teleop.dir/build
+.PHONY : keyboard_teleop/fast
+
+#=============================================================================
 # Target rules for targets named luna_ping
 
 # Build rule for target.
@@ -2311,6 +2324,7 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... ground_velocity"
+	@echo "... keyboard_teleop"
 	@echo "... luna_ping"
 	@echo "... _run_tests_camera_calibration"
 	@echo "... _run_tests_camera_calibration_nosetests"

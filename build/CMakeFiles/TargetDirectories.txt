@@ -46,6 +46,7 @@
 /home/rosbox/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir
 /home/rosbox/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view_exe.dir
 /home/rosbox/catkin_ws/build/camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir
+/home/rosbox/catkin_ws/build/keyboard_teleop/CMakeFiles/keyboard_teleop.dir
 /home/rosbox/catkin_ws/build/rviz/src/python_bindings/sip/CMakeFiles/librviz_sip.dir
 /home/rosbox/catkin_ws/build/luna_ping/CMakeFiles/luna_ping.dir
 /home/rosbox/catkin_ws/build/rviz/CMakeFiles/map_msgs_generate_messages_cpp.dir
