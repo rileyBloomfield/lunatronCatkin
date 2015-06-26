@@ -161,6 +161,90 @@ mono_odometer/fast:
 .PHONY : mono_odometer/fast
 
 # Convenience name for target.
+viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+.PHONY : viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_cpp: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+.PHONY : viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_lisp: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+.PHONY : nav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+nav_msgs_generate_messages_lisp/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+.PHONY : viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_py: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+.PHONY : nav_msgs_generate_messages_py
+
+# fast build rule for target.
+nav_msgs_generate_messages_py/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+.PHONY : nav_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+.PHONY : viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+# Convenience name for target.
+viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+# Convenience name for target.
+viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/build.make viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+# Convenience name for target.
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/rule:
 	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/rule
 .PHONY : viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/rule
@@ -332,7 +416,13 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... mono_odometer"
+	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... nav_msgs_generate_messages_lisp"
+	@echo "... nav_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
+	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... std_srvs_generate_messages_py"
 	@echo "... stereo_odometer"
 	@echo "... test"
 	@echo "... viso2_ros_gencpp"

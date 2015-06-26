@@ -1676,6 +1676,12 @@ python_qt_binding_DIR:PATH=/opt/ros/hydro/share/python_qt_binding/cmake
 resource_retriever_DIR:PATH=/opt/ros/hydro/share/resource_retriever/cmake
 
 //Value Computed by CMake
+ros_socket_BINARY_DIR:STATIC=/home/rosbox/catkin_ws/build/ros_socket
+
+//Value Computed by CMake
+ros_socket_SOURCE_DIR:STATIC=/home/rosbox/catkin_ws/src/ros_socket
+
+//Value Computed by CMake
 rosapi_BINARY_DIR:STATIC=/home/rosbox/catkin_ws/build/rosbridge/rosbridge_suite/rosapi
 
 //The directory containing a CMake configuration file for rosapi.
@@ -1818,6 +1824,9 @@ rviz_shiboken_LIB_DEPENDS:STATIC=general;rviz;general;/usr/lib/libpython2.7.so;g
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/hydro/share/sensor_msgs/cmake
+
+//Dependencies for the target
+server_LIB_DEPENDS:STATIC=general;/opt/ros/hydro/lib/libroscpp.so;general;/usr/lib/libboost_signals-mt.so;general;/usr/lib/libboost_filesystem-mt.so;general;/opt/ros/hydro/lib/librosconsole.so;general;/opt/ros/hydro/lib/librosconsole_log4cxx.so;general;/opt/ros/hydro/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/libboost_regex-mt.so;general;/opt/ros/hydro/lib/libxmlrpcpp.so;general;/opt/ros/hydro/lib/libroscpp_serialization.so;general;/opt/ros/hydro/lib/librostime.so;general;/usr/lib/libboost_date_time-mt.so;general;/usr/lib/libboost_system-mt.so;general;/usr/lib/libboost_thread-mt.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/opt/ros/hydro/lib/libcpp_common.so;general;/opt/ros/hydro/lib/libconsole_bridge.so;general;pthread;general;rt;
 
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/hydro/share/smclib/cmake
@@ -2117,7 +2126,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=43
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=35
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -2199,7 +2208,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PCL_TRACKING:INTERNAL=[/usr/lib/libpcl_tracking.so]
 //Details about finding PCL_VISUALIZATION
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_VISUALIZATION:INTERNAL=[/usr/lib/libpcl_visualization.so][/usr/include/pcl-1.7][v()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.3(2.7)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.3()]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/libpython2.7.so][/usr/include/python2.7][v(2.7)]
 //Details about finding Qt4
@@ -2555,8 +2564,6 @@ QT_DESIGNER_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: QT_DOC_DIR
 QT_DOC_DIR-ADVANCED:INTERNAL=1
 QT_HEADERS_DIR:INTERNAL=/usr/include/qt4
-//ADVANCED property for variable: QT_LIBRARY_DIR
-QT_LIBRARY_DIR-ADVANCED:INTERNAL=1
 //Qt library dir
 QT_LIBRARY_DIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 //ADVANCED property for variable: QT_LINGUIST_EXECUTABLE

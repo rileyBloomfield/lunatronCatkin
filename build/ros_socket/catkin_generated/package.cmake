@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ros_socket")
+set(ros_socket_MAINTAINER "rosbox <rosbox@todo.todo>")
+set(ros_socket_DEPRECATED "")
+set(ros_socket_VERSION "0.0.0")
+set(ros_socket_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(ros_socket_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(ros_socket_BUILDTOOL_DEPENDS "catkin")

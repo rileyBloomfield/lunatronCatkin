@@ -5,6 +5,15 @@ depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /home/rosbox/catkin_ws/s
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /home/rosbox/catkin_ws/src/depth_cam/src/depth_cam.cpp
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/XmlRpcDecl.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/XmlRpcValue.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/camera_publisher.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/camera_subscriber.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/exception.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/image_transport.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/loader_fwds.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/publisher.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/single_subscriber_publisher.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/subscriber.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/image_transport/transport_hints.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/ros/advertise_options.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/ros/advertise_service_options.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/ros/assert.h
@@ -59,7 +68,9 @@ depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/r
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/ros/wall_timer.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/ros/wall_timer_options.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/rosconsole/macros_generated.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/sensor_msgs/CameraInfo.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/sensor_msgs/Image.h
+depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/sensor_msgs/RegionOfInterest.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/std_msgs/Header.h
 depth_cam/CMakeFiles/depth_cam.dir/src/depth_cam.cpp.o: /opt/ros/hydro/include/std_msgs/String.h
 

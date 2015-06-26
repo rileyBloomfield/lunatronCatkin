@@ -1798,318 +1798,6 @@ image_rotate_gencfg/fast:
 .PHONY : image_rotate_gencfg/fast
 
 #=============================================================================
-# Target rules for targets named map_msgs_generate_messages_cpp
-
-# Build rule for target.
-map_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_cpp
-.PHONY : map_msgs_generate_messages_cpp
-
-# fast build rule for target.
-map_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f rviz/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make rviz/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
-.PHONY : map_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_lisp
-
-# Build rule for target.
-map_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_lisp
-.PHONY : map_msgs_generate_messages_lisp
-
-# fast build rule for target.
-map_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rviz/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make rviz/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
-.PHONY : map_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named map_msgs_generate_messages_py
-
-# Build rule for target.
-map_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 map_msgs_generate_messages_py
-.PHONY : map_msgs_generate_messages_py
-
-# fast build rule for target.
-map_msgs_generate_messages_py/fast:
-	$(MAKE) -f rviz/CMakeFiles/map_msgs_generate_messages_py.dir/build.make rviz/CMakeFiles/map_msgs_generate_messages_py.dir/build
-.PHONY : map_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_cpp
-
-# Build rule for target.
-nav_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
-.PHONY : nav_msgs_generate_messages_cpp
-
-# fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f rviz/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make rviz/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_lisp
-
-# Build rule for target.
-nav_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rviz/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make rviz/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_py
-
-# Build rule for target.
-nav_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
-.PHONY : nav_msgs_generate_messages_py
-
-# fast build rule for target.
-nav_msgs_generate_messages_py/fast:
-	$(MAKE) -f rviz/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make rviz/CMakeFiles/nav_msgs_generate_messages_py.dir/build
-.PHONY : nav_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_cpp
-
-# Build rule for target.
-std_srvs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
-.PHONY : std_srvs_generate_messages_cpp
-
-# fast build rule for target.
-std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f rviz/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make rviz/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-.PHONY : std_srvs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_lisp
-
-# Build rule for target.
-std_srvs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
-.PHONY : std_srvs_generate_messages_lisp
-
-# fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f rviz/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make rviz/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_py
-
-# Build rule for target.
-std_srvs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
-.PHONY : std_srvs_generate_messages_py
-
-# fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	$(MAKE) -f rviz/CMakeFiles/std_srvs_generate_messages_py.dir/build.make rviz/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named visualization_msgs_generate_messages_cpp
-
-# Build rule for target.
-visualization_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_cpp
-.PHONY : visualization_msgs_generate_messages_cpp
-
-# fast build rule for target.
-visualization_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f rviz/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make rviz/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
-.PHONY : visualization_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named visualization_msgs_generate_messages_lisp
-
-# Build rule for target.
-visualization_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_lisp
-.PHONY : visualization_msgs_generate_messages_lisp
-
-# fast build rule for target.
-visualization_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rviz/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make rviz/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
-.PHONY : visualization_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named visualization_msgs_generate_messages_py
-
-# Build rule for target.
-visualization_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_py
-.PHONY : visualization_msgs_generate_messages_py
-
-# fast build rule for target.
-visualization_msgs_generate_messages_py/fast:
-	$(MAKE) -f rviz/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make rviz/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
-.PHONY : visualization_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named executable
-
-# Build rule for target.
-executable: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 executable
-.PHONY : executable
-
-# fast build rule for target.
-executable/fast:
-	$(MAKE) -f rviz/src/rviz/CMakeFiles/executable.dir/build.make rviz/src/rviz/CMakeFiles/executable.dir/build
-.PHONY : executable/fast
-
-#=============================================================================
-# Target rules for targets named rviz
-
-# Build rule for target.
-rviz: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz
-.PHONY : rviz
-
-# fast build rule for target.
-rviz/fast:
-	$(MAKE) -f rviz/src/rviz/CMakeFiles/rviz.dir/build.make rviz/src/rviz/CMakeFiles/rviz.dir/build
-.PHONY : rviz/fast
-
-#=============================================================================
-# Target rules for targets named default_plugin
-
-# Build rule for target.
-default_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 default_plugin
-.PHONY : default_plugin
-
-# fast build rule for target.
-default_plugin/fast:
-	$(MAKE) -f rviz/src/rviz/default_plugin/CMakeFiles/default_plugin.dir/build.make rviz/src/rviz/default_plugin/CMakeFiles/default_plugin.dir/build
-.PHONY : default_plugin/fast
-
-#=============================================================================
-# Target rules for targets named rviz_image_view
-
-# Build rule for target.
-rviz_image_view: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_image_view
-.PHONY : rviz_image_view
-
-# fast build rule for target.
-rviz_image_view/fast:
-	$(MAKE) -f rviz/src/image_view/CMakeFiles/rviz_image_view.dir/build.make rviz/src/image_view/CMakeFiles/rviz_image_view.dir/build
-.PHONY : rviz_image_view/fast
-
-#=============================================================================
-# Target rules for targets named marker_test
-
-# Build rule for target.
-marker_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 marker_test
-.PHONY : marker_test
-
-# fast build rule for target.
-marker_test/fast:
-	$(MAKE) -f rviz/src/test/CMakeFiles/marker_test.dir/build.make rviz/src/test/CMakeFiles/marker_test.dir/build
-.PHONY : marker_test/fast
-
-#=============================================================================
-# Target rules for targets named mesh_marker_test
-
-# Build rule for target.
-mesh_marker_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesh_marker_test
-.PHONY : mesh_marker_test
-
-# fast build rule for target.
-mesh_marker_test/fast:
-	$(MAKE) -f rviz/src/test/CMakeFiles/mesh_marker_test.dir/build.make rviz/src/test/CMakeFiles/mesh_marker_test.dir/build
-.PHONY : mesh_marker_test/fast
-
-#=============================================================================
-# Target rules for targets named send_grid_cells
-
-# Build rule for target.
-send_grid_cells: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 send_grid_cells
-.PHONY : send_grid_cells
-
-# fast build rule for target.
-send_grid_cells/fast:
-	$(MAKE) -f rviz/src/test/CMakeFiles/send_grid_cells.dir/build.make rviz/src/test/CMakeFiles/send_grid_cells.dir/build
-.PHONY : send_grid_cells/fast
-
-#=============================================================================
-# Target rules for targets named send_images
-
-# Build rule for target.
-send_images: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 send_images
-.PHONY : send_images
-
-# fast build rule for target.
-send_images/fast:
-	$(MAKE) -f rviz/src/test/CMakeFiles/send_images.dir/build.make rviz/src/test/CMakeFiles/send_images.dir/build
-.PHONY : send_images/fast
-
-#=============================================================================
-# Target rules for targets named send_lots_of_points
-
-# Build rule for target.
-send_lots_of_points: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 send_lots_of_points
-.PHONY : send_lots_of_points
-
-# fast build rule for target.
-send_lots_of_points/fast:
-	$(MAKE) -f rviz/src/test/CMakeFiles/send_lots_of_points.dir/build.make rviz/src/test/CMakeFiles/send_lots_of_points.dir/build
-.PHONY : send_lots_of_points/fast
-
-#=============================================================================
-# Target rules for targets named send_point_cloud_2
-
-# Build rule for target.
-send_point_cloud_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 send_point_cloud_2
-.PHONY : send_point_cloud_2
-
-# fast build rule for target.
-send_point_cloud_2/fast:
-	$(MAKE) -f rviz/src/test/CMakeFiles/send_point_cloud_2.dir/build.make rviz/src/test/CMakeFiles/send_point_cloud_2.dir/build
-.PHONY : send_point_cloud_2/fast
-
-#=============================================================================
-# Target rules for targets named rviz_shiboken
-
-# Build rule for target.
-rviz_shiboken: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rviz_shiboken
-.PHONY : rviz_shiboken
-
-# fast build rule for target.
-rviz_shiboken/fast:
-	$(MAKE) -f rviz/src/python_bindings/shiboken/CMakeFiles/rviz_shiboken.dir/build.make rviz/src/python_bindings/shiboken/CMakeFiles/rviz_shiboken.dir/build
-.PHONY : rviz_shiboken/fast
-
-#=============================================================================
-# Target rules for targets named librviz_sip
-
-# Build rule for target.
-librviz_sip: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 librviz_sip
-.PHONY : librviz_sip
-
-# fast build rule for target.
-librviz_sip/fast:
-	$(MAKE) -f rviz/src/python_bindings/sip/CMakeFiles/librviz_sip.dir/build.make rviz/src/python_bindings/sip/CMakeFiles/librviz_sip.dir/build
-.PHONY : librviz_sip/fast
-
-#=============================================================================
 # Target rules for targets named nodelet_uvc_camera
 
 # Build rule for target.
@@ -2160,6 +1848,84 @@ mono_odometer: cmake_check_build_system
 mono_odometer/fast:
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build
 .PHONY : mono_odometer/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_cpp
+
+# Build rule for target.
+nav_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_cpp
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_lisp
+
+# Build rule for target.
+nav_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_lisp
+.PHONY : nav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+nav_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_py
+
+# Build rule for target.
+nav_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_py
+.PHONY : nav_msgs_generate_messages_py
+
+# fast build rule for target.
+nav_msgs_generate_messages_py/fast:
+	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+.PHONY : nav_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/build.make viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named stereo_odometer
@@ -2405,34 +2171,16 @@ help:
 	@echo "... image_rotate"
 	@echo "... image_rotate_exe"
 	@echo "... image_rotate_gencfg"
-	@echo "... map_msgs_generate_messages_cpp"
-	@echo "... map_msgs_generate_messages_lisp"
-	@echo "... map_msgs_generate_messages_py"
+	@echo "... nodelet_uvc_camera"
+	@echo "... uvc_camera_node"
+	@echo "... uvc_stereo_node"
+	@echo "... mono_odometer"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_py"
-	@echo "... visualization_msgs_generate_messages_cpp"
-	@echo "... visualization_msgs_generate_messages_lisp"
-	@echo "... visualization_msgs_generate_messages_py"
-	@echo "... executable"
-	@echo "... rviz"
-	@echo "... default_plugin"
-	@echo "... rviz_image_view"
-	@echo "... marker_test"
-	@echo "... mesh_marker_test"
-	@echo "... send_grid_cells"
-	@echo "... send_images"
-	@echo "... send_lots_of_points"
-	@echo "... send_point_cloud_2"
-	@echo "... rviz_shiboken"
-	@echo "... librviz_sip"
-	@echo "... nodelet_uvc_camera"
-	@echo "... uvc_camera_node"
-	@echo "... uvc_stereo_node"
-	@echo "... mono_odometer"
 	@echo "... stereo_odometer"
 	@echo "... viso2_ros_gencpp"
 	@echo "... viso2_ros_generate_messages"
