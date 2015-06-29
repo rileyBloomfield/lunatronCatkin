@@ -77,6 +77,9 @@ server_OBJECTS = \
 server_EXTERNAL_OBJECTS =
 
 /home/rosbox/catkin_ws/devel/lib/ros_socket/server: ros_socket/CMakeFiles/server.dir/src/Server.cpp.o
+/home/rosbox/catkin_ws/devel/lib/ros_socket/server: /home/rosbox/catkin_ws/devel/lib/libthread.so
+/home/rosbox/catkin_ws/devel/lib/ros_socket/server: /home/rosbox/catkin_ws/devel/lib/libsocket.so
+/home/rosbox/catkin_ws/devel/lib/ros_socket/server: /home/rosbox/catkin_ws/devel/lib/libsocketServer.so
 /home/rosbox/catkin_ws/devel/lib/ros_socket/server: /opt/ros/hydro/lib/libroscpp.so
 /home/rosbox/catkin_ws/devel/lib/ros_socket/server: /usr/lib/libboost_signals-mt.so
 /home/rosbox/catkin_ws/devel/lib/ros_socket/server: /usr/lib/libboost_filesystem-mt.so

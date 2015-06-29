@@ -771,6 +771,58 @@ luna_ping/fast:
 .PHONY : luna_ping/fast
 
 #=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
+# Target rules for targets named socket
+
+# Build rule for target.
+socket: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 socket
+.PHONY : socket
+
+# fast build rule for target.
+socket/fast:
+	$(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/build
+.PHONY : socket/fast
+
+#=============================================================================
+# Target rules for targets named socketServer
+
+# Build rule for target.
+socketServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 socketServer
+.PHONY : socketServer
+
+# fast build rule for target.
+socketServer/fast:
+	$(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/build
+.PHONY : socketServer/fast
+
+#=============================================================================
+# Target rules for targets named thread
+
+# Build rule for target.
+thread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread
+.PHONY : thread
+
+# fast build rule for target.
+thread/fast:
+	$(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/build
+.PHONY : thread/fast
+
+#=============================================================================
 # Target rules for targets named _run_tests_camera_calibration
 
 # Build rule for target.
@@ -2092,6 +2144,10 @@ help:
 	@echo "... ground_velocity"
 	@echo "... keyboard_teleop"
 	@echo "... luna_ping"
+	@echo "... server"
+	@echo "... socket"
+	@echo "... socketServer"
+	@echo "... thread"
 	@echo "... _run_tests_camera_calibration"
 	@echo "... _run_tests_camera_calibration_nosetests"
 	@echo "... _run_tests_camera_calibration_nosetests_test.directed.py"

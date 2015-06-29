@@ -1236,6 +1236,9 @@ SIP_EXECUTABLE:FILEPATH=/usr/bin/sip
 //The directory containing a CMake configuration file for Shiboken.
 Shiboken_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Shiboken-1.1.0
 
+//The directory containing a CMake configuration file for Threads.
+Threads_DIR:PATH=Threads_DIR-NOTFOUND
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 
@@ -1831,6 +1834,12 @@ server_LIB_DEPENDS:STATIC=general;/opt/ros/hydro/lib/libroscpp.so;general;/usr/l
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/hydro/share/smclib/cmake
 
+//Dependencies for target
+socketServer_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+socket_LIB_DEPENDS:STATIC=
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/hydro/share/std_msgs/cmake
 
@@ -1866,6 +1875,9 @@ tf_DIR:PATH=/opt/ros/hydro/share/tf/cmake
 
 //The directory containing a CMake configuration file for tf_conversions.
 tf_conversions_DIR:PATH=/opt/ros/hydro/share/tf_conversions/cmake
+
+//Dependencies for target
+thread_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for topic_tools.
 topic_tools_DIR:PATH=/opt/ros/hydro/share/topic_tools/cmake

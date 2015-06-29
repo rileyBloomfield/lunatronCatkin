@@ -146,6 +146,158 @@ depend:
 	cd /home/rosbox/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+ros_socket/CMakeFiles/server.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/server.dir/rule
+.PHONY : ros_socket/CMakeFiles/server.dir/rule
+
+# Convenience name for target.
+server: ros_socket/CMakeFiles/server.dir/rule
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+# Convenience name for target.
+ros_socket/CMakeFiles/socket.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/socket.dir/rule
+.PHONY : ros_socket/CMakeFiles/socket.dir/rule
+
+# Convenience name for target.
+socket: ros_socket/CMakeFiles/socket.dir/rule
+.PHONY : socket
+
+# fast build rule for target.
+socket/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/build
+.PHONY : socket/fast
+
+# Convenience name for target.
+ros_socket/CMakeFiles/socketServer.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/socketServer.dir/rule
+.PHONY : ros_socket/CMakeFiles/socketServer.dir/rule
+
+# Convenience name for target.
+socketServer: ros_socket/CMakeFiles/socketServer.dir/rule
+.PHONY : socketServer
+
+# fast build rule for target.
+socketServer/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/build
+.PHONY : socketServer/fast
+
+# Convenience name for target.
+ros_socket/CMakeFiles/thread.dir/rule:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/thread.dir/rule
+.PHONY : ros_socket/CMakeFiles/thread.dir/rule
+
+# Convenience name for target.
+thread: ros_socket/CMakeFiles/thread.dir/rule
+.PHONY : thread
+
+# fast build rule for target.
+thread/fast:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/build
+.PHONY : thread/fast
+
+src/Server.o: src/Server.cpp.o
+.PHONY : src/Server.o
+
+# target to build an object file
+src/Server.cpp.o:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/src/Server.cpp.o
+.PHONY : src/Server.cpp.o
+
+src/Server.i: src/Server.cpp.i
+.PHONY : src/Server.i
+
+# target to preprocess a source file
+src/Server.cpp.i:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/src/Server.cpp.i
+.PHONY : src/Server.cpp.i
+
+src/Server.s: src/Server.cpp.s
+.PHONY : src/Server.s
+
+# target to generate assembly for a file
+src/Server.cpp.s:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/src/Server.cpp.s
+.PHONY : src/Server.cpp.s
+
+src/socket.o: src/socket.cpp.o
+.PHONY : src/socket.o
+
+# target to build an object file
+src/socket.cpp.o:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/src/socket.cpp.o
+.PHONY : src/socket.cpp.o
+
+src/socket.i: src/socket.cpp.i
+.PHONY : src/socket.i
+
+# target to preprocess a source file
+src/socket.cpp.i:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/src/socket.cpp.i
+.PHONY : src/socket.cpp.i
+
+src/socket.s: src/socket.cpp.s
+.PHONY : src/socket.s
+
+# target to generate assembly for a file
+src/socket.cpp.s:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/src/socket.cpp.s
+.PHONY : src/socket.cpp.s
+
+src/socketserver.o: src/socketserver.cpp.o
+.PHONY : src/socketserver.o
+
+# target to build an object file
+src/socketserver.cpp.o:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/src/socketserver.cpp.o
+.PHONY : src/socketserver.cpp.o
+
+src/socketserver.i: src/socketserver.cpp.i
+.PHONY : src/socketserver.i
+
+# target to preprocess a source file
+src/socketserver.cpp.i:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/src/socketserver.cpp.i
+.PHONY : src/socketserver.cpp.i
+
+src/socketserver.s: src/socketserver.cpp.s
+.PHONY : src/socketserver.s
+
+# target to generate assembly for a file
+src/socketserver.cpp.s:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/src/socketserver.cpp.s
+.PHONY : src/socketserver.cpp.s
+
+src/thread.o: src/thread.cpp.o
+.PHONY : src/thread.o
+
+# target to build an object file
+src/thread.cpp.o:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/src/thread.cpp.o
+.PHONY : src/thread.cpp.o
+
+src/thread.i: src/thread.cpp.i
+.PHONY : src/thread.i
+
+# target to preprocess a source file
+src/thread.cpp.i:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/src/thread.cpp.i
+.PHONY : src/thread.cpp.i
+
+src/thread.s: src/thread.cpp.s
+.PHONY : src/thread.s
+
+# target to generate assembly for a file
+src/thread.cpp.s:
+	cd /home/rosbox/catkin_ws/build && $(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/src/thread.cpp.s
+.PHONY : src/thread.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,7 +310,23 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... server"
+	@echo "... socket"
+	@echo "... socketServer"
 	@echo "... test"
+	@echo "... thread"
+	@echo "... src/Server.o"
+	@echo "... src/Server.i"
+	@echo "... src/Server.s"
+	@echo "... src/socket.o"
+	@echo "... src/socket.i"
+	@echo "... src/socket.s"
+	@echo "... src/socketserver.o"
+	@echo "... src/socketserver.i"
+	@echo "... src/socketserver.s"
+	@echo "... src/thread.o"
+	@echo "... src/thread.i"
+	@echo "... src/thread.s"
 .PHONY : help
 
 

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rosbox/catkin_ws/src/ros_socket/src/ThreadSem.h
+semaphore.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+string
+-
+sstream
+-
+
+/home/rosbox/catkin_ws/src/ros_socket/src/thread.cpp
+thread.h
+/home/rosbox/catkin_ws/src/ros_socket/src/thread.h
+unistd.h
+/home/rosbox/catkin_ws/src/ros_socket/src/unistd.h
+
+/home/rosbox/catkin_ws/src/ros_socket/src/thread.h
+stdlib.h
+-
+time.h
+-
+sys/time.h
+-
+list
+-
+iostream
+-
+string
+-
+pthread.h
+-
+ThreadSem.h
+/home/rosbox/catkin_ws/src/ros_socket/src/ThreadSem.h
+

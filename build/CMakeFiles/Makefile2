@@ -451,9 +451,9 @@ clean: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_gencpp.dir/clean
 # Target rules for target rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir
 
 # All Build rule for target.
+rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/all
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/all
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/all
-rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/all
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/depend
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -466,7 +466,7 @@ all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/rule
@@ -491,7 +491,7 @@ clean: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_message
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  76
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  75
 	@echo "Built target rosserial_arduino_generate_messages_cpp"
 .PHONY : rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/all
 
@@ -522,7 +522,7 @@ clean: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_message
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  77
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  76
 	@echo "Built target rosserial_arduino_generate_messages_lisp"
 .PHONY : rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/all
 
@@ -553,13 +553,13 @@ clean: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_message
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/all:
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/depend
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  78 79
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  77
 	@echo "Built target rosserial_arduino_generate_messages_py"
 .PHONY : rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/rule
@@ -621,7 +621,7 @@ rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_genpy.dir/all: rosseria
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_genpy.dir/rule
@@ -759,8 +759,8 @@ clean: rosserial/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest_f
 # Target rules for target rosserial/rosserial_client/CMakeFiles/float64_test.dir
 
 # All Build rule for target.
-rosserial/rosserial_client/CMakeFiles/float64_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 rosserial/rosserial_client/CMakeFiles/float64_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+rosserial/rosserial_client/CMakeFiles/float64_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f rosserial/rosserial_client/CMakeFiles/float64_test.dir/build.make rosserial/rosserial_client/CMakeFiles/float64_test.dir/depend
 	$(MAKE) -f rosserial/rosserial_client/CMakeFiles/float64_test.dir/build.make rosserial/rosserial_client/CMakeFiles/float64_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -914,7 +914,7 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/all: rosserial/ros
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/rule
@@ -937,8 +937,8 @@ clean: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/clean
 
 # All Build rule for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
+rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/depend
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -951,7 +951,7 @@ all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/al
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/rule
@@ -976,13 +976,13 @@ clean: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  80 81
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  78 79 80
 	@echo "Built target rosserial_msgs_generate_messages_cpp"
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/rule
@@ -1007,7 +1007,7 @@ clean: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  82 83
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  81 82
 	@echo "Built target rosserial_msgs_generate_messages_lisp"
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
 
@@ -1038,7 +1038,7 @@ clean: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  84 85 86
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  83 84 85
 	@echo "Built target rosserial_msgs_generate_messages_py"
 .PHONY : rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
 
@@ -1853,16 +1853,164 @@ clean: luna_ping/CMakeFiles/luna_ping.dir/clean
 # Directory level rules for directory ros_socket
 
 # Convenience name for "all" pass in the directory.
-ros_socket/all:
+ros_socket/all: ros_socket/CMakeFiles/server.dir/all
+ros_socket/all: ros_socket/CMakeFiles/socket.dir/all
+ros_socket/all: ros_socket/CMakeFiles/socketServer.dir/all
+ros_socket/all: ros_socket/CMakeFiles/thread.dir/all
 .PHONY : ros_socket/all
 
 # Convenience name for "clean" pass in the directory.
-ros_socket/clean:
+ros_socket/clean: ros_socket/CMakeFiles/server.dir/clean
+ros_socket/clean: ros_socket/CMakeFiles/socket.dir/clean
+ros_socket/clean: ros_socket/CMakeFiles/socketServer.dir/clean
+ros_socket/clean: ros_socket/CMakeFiles/thread.dir/clean
 .PHONY : ros_socket/clean
 
 # Convenience name for "preinstall" pass in the directory.
 ros_socket/preinstall:
 .PHONY : ros_socket/preinstall
+
+#=============================================================================
+# Target rules for target ros_socket/CMakeFiles/server.dir
+
+# All Build rule for target.
+ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/socketServer.dir/all
+ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/socket.dir/all
+ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/thread.dir/all
+	$(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/depend
+	$(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	@echo "Built target server"
+.PHONY : ros_socket/CMakeFiles/server.dir/all
+
+# Include target in all.
+all: ros_socket/CMakeFiles/server.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ros_socket/CMakeFiles/server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_socket/CMakeFiles/server.dir/rule
+
+# Convenience name for target.
+server: ros_socket/CMakeFiles/server.dir/rule
+.PHONY : server
+
+# clean rule for target.
+ros_socket/CMakeFiles/server.dir/clean:
+	$(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/clean
+.PHONY : ros_socket/CMakeFiles/server.dir/clean
+
+# clean rule for target.
+clean: ros_socket/CMakeFiles/server.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ros_socket/CMakeFiles/socket.dir
+
+# All Build rule for target.
+ros_socket/CMakeFiles/socket.dir/all:
+	$(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/depend
+	$(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  87
+	@echo "Built target socket"
+.PHONY : ros_socket/CMakeFiles/socket.dir/all
+
+# Include target in all.
+all: ros_socket/CMakeFiles/socket.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ros_socket/CMakeFiles/socket.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/socket.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_socket/CMakeFiles/socket.dir/rule
+
+# Convenience name for target.
+socket: ros_socket/CMakeFiles/socket.dir/rule
+.PHONY : socket
+
+# clean rule for target.
+ros_socket/CMakeFiles/socket.dir/clean:
+	$(MAKE) -f ros_socket/CMakeFiles/socket.dir/build.make ros_socket/CMakeFiles/socket.dir/clean
+.PHONY : ros_socket/CMakeFiles/socket.dir/clean
+
+# clean rule for target.
+clean: ros_socket/CMakeFiles/socket.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ros_socket/CMakeFiles/socketServer.dir
+
+# All Build rule for target.
+ros_socket/CMakeFiles/socketServer.dir/all:
+	$(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/depend
+	$(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	@echo "Built target socketServer"
+.PHONY : ros_socket/CMakeFiles/socketServer.dir/all
+
+# Include target in all.
+all: ros_socket/CMakeFiles/socketServer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ros_socket/CMakeFiles/socketServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/socketServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_socket/CMakeFiles/socketServer.dir/rule
+
+# Convenience name for target.
+socketServer: ros_socket/CMakeFiles/socketServer.dir/rule
+.PHONY : socketServer
+
+# clean rule for target.
+ros_socket/CMakeFiles/socketServer.dir/clean:
+	$(MAKE) -f ros_socket/CMakeFiles/socketServer.dir/build.make ros_socket/CMakeFiles/socketServer.dir/clean
+.PHONY : ros_socket/CMakeFiles/socketServer.dir/clean
+
+# clean rule for target.
+clean: ros_socket/CMakeFiles/socketServer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ros_socket/CMakeFiles/thread.dir
+
+# All Build rule for target.
+ros_socket/CMakeFiles/thread.dir/all:
+	$(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/depend
+	$(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	@echo "Built target thread"
+.PHONY : ros_socket/CMakeFiles/thread.dir/all
+
+# Include target in all.
+all: ros_socket/CMakeFiles/thread.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ros_socket/CMakeFiles/thread.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ros_socket/CMakeFiles/thread.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_socket/CMakeFiles/thread.dir/rule
+
+# Convenience name for target.
+thread: ros_socket/CMakeFiles/thread.dir/rule
+.PHONY : thread
+
+# clean rule for target.
+ros_socket/CMakeFiles/thread.dir/clean:
+	$(MAKE) -f ros_socket/CMakeFiles/thread.dir/build.make ros_socket/CMakeFiles/thread.dir/clean
+.PHONY : ros_socket/CMakeFiles/thread.dir/clean
+
+# clean rule for target.
+clean: ros_socket/CMakeFiles/thread.dir/clean
+.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory image_pipeline/camera_calibration
@@ -2148,8 +2296,8 @@ clean: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration
 
 # All Build rule for target.
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.testapproxsync.py.dir/all
-image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/all
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/all
+image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/all
 	$(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/depend
 	$(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -2542,7 +2690,7 @@ clean: image_pipeline/image_view/CMakeFiles/image_view.dir/clean
 image_pipeline/image_view/CMakeFiles/image_view_exe.dir/all:
 	$(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view_exe.dir/build.make image_pipeline/image_view/CMakeFiles/image_view_exe.dir/depend
 	$(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view_exe.dir/build.make image_pipeline/image_view/CMakeFiles/image_view_exe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
 	@echo "Built target image_view_exe"
 .PHONY : image_pipeline/image_view/CMakeFiles/image_view_exe.dir/all
 
@@ -2552,7 +2700,7 @@ all: image_pipeline/image_view/CMakeFiles/image_view_exe.dir/all
 
 # Build rule for subdir invocation for target.
 image_pipeline/image_view/CMakeFiles/image_view_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/image_view_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : image_pipeline/image_view/CMakeFiles/image_view_exe.dir/rule
@@ -2755,7 +2903,7 @@ camera_umd/jpeg_streamer/preinstall:
 camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all:
 	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/depend
 	$(MAKE) -f camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build.make camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  14
 	@echo "Built target jpeg_streamer"
 .PHONY : camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
 
@@ -2765,7 +2913,7 @@ all: camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
 
 # Build rule for subdir invocation for target.
 camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : camera_umd/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/rule
@@ -3108,9 +3256,9 @@ clean: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_
 # Target rules for target rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir
 
 # All Build rule for target.
-rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/all
+rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -3145,11 +3293,11 @@ clean: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_
 # Target rules for target rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir
 
 # All Build rule for target.
-rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  50 51 52 53 54 55 56 57 58
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  49 50 51 52 53 54 55 56 57
 	@echo "Built target rosbridge_library_generate_messages_cpp"
 .PHONY : rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all
 
@@ -3181,7 +3329,7 @@ rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generat
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  59 60 61 62 63 64 65 66
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  58 59 60 61 62 63 64 65
 	@echo "Built target rosbridge_library_generate_messages_lisp"
 .PHONY : rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/all
 
@@ -3209,11 +3357,11 @@ clean: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_
 # Target rules for target rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir
 
 # All Build rule for target.
-rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  67 68 69 70 71 72 73 74 75
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  66 67 68 69 70 71 72 73 74
 	@echo "Built target rosbridge_library_generate_messages_py"
 .PHONY : rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all
 
@@ -3370,7 +3518,7 @@ all: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/al
 
 # Build rule for subdir invocation for target.
 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/rule
@@ -3457,13 +3605,13 @@ clean: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_lisp
 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/build.make rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/build.make rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  39 40 41 42 43 44 45 46 47 48 49
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  39 40 41 42 43 44 45 46 47 48
 	@echo "Built target rosapi_generate_messages_py"
 .PHONY : rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/rule
@@ -3525,7 +3673,7 @@ rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_genpy.dir/all: rosbridge/rosb
 
 # Build rule for subdir invocation for target.
 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_genpy.dir/rule
@@ -3585,7 +3733,7 @@ rosserial/rosserial_server/preinstall:
 rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/all
 	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/depend
 	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  87
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
 	@echo "Built target rosserial_server_serial_node"
 .PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all
 
@@ -3620,7 +3768,7 @@ clean: rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/cl
 rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/all
 	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/depend
 	$(MAKE) -f rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build.make rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  86
 	@echo "Built target rosserial_server_socket_node"
 .PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all
 
@@ -3630,7 +3778,7 @@ all: rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all
 
 # Build rule for subdir invocation for target.
 rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/rule
@@ -3934,7 +4082,7 @@ clean: image_pipeline/stereo_image_proc/CMakeFiles/stereo_msgs_generate_messages
 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/all: image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/all
 	$(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/depend
 	$(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  91
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
 	@echo "Built target stereoimageproc_exe"
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/all
 
@@ -3944,7 +4092,7 @@ all: image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/all
 
 # Build rule for subdir invocation for target.
 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule
@@ -4275,7 +4423,7 @@ clean: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/all:
 	$(MAKE) -f lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/build.make lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/depend
 	$(MAKE) -f lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/build.make lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  91
 	@echo "Built target tf_broadcaster"
 .PHONY : lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/all
 
@@ -4285,7 +4433,7 @@ all: lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/all
 
 # Build rule for subdir invocation for target.
 lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : lunatron_setup_tf/CMakeFiles/tf_broadcaster.dir/rule
@@ -4630,7 +4778,7 @@ image_pipeline/image_rotate/preinstall:
 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/all: image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/all
 	$(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/depend
 	$(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
 	@echo "Built target image_rotate"
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/all
 
@@ -4640,7 +4788,7 @@ all: image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/all
 
 # Build rule for subdir invocation for target.
 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
@@ -4665,7 +4813,7 @@ clean: image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/clean
 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/all:
 	$(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/depend
 	$(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  11
 	@echo "Built target image_rotate_exe"
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/all
 
@@ -4675,7 +4823,7 @@ all: image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/all
 
 # Build rule for subdir invocation for target.
 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
@@ -4789,7 +4937,7 @@ clean: camera_umd/uvc_camera/CMakeFiles/nodelet_uvc_camera.dir/clean
 camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all:
 	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/depend
 	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  92
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  92 93
 	@echo "Built target uvc_camera_node"
 .PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
 
@@ -4799,7 +4947,7 @@ all: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
 
 # Build rule for subdir invocation for target.
 camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/rule
@@ -4824,7 +4972,7 @@ clean: camera_umd/uvc_camera/CMakeFiles/uvc_camera_node.dir/clean
 camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all:
 	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/depend
 	$(MAKE) -f camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build.make camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  93 94
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  94
 	@echo "Built target uvc_stereo_node"
 .PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
 
@@ -4834,7 +4982,7 @@ all: camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
 
 # Build rule for subdir invocation for target.
 camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosbox/catkin_ws/build/CMakeFiles 0
 .PHONY : camera_umd/uvc_camera/CMakeFiles/uvc_stereo_node.dir/rule
@@ -4888,57 +5036,57 @@ viso2_ros/viso2_ros/preinstall:
 
 # All Build rule for target.
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/libviso2/CMakeFiles/viso2.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/all
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/depend
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  16
@@ -5160,57 +5308,57 @@ clean: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 
 # All Build rule for target.
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/libviso2/CMakeFiles/viso2.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/all
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/depend
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  90
@@ -5276,9 +5424,9 @@ clean: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/clean
 # Target rules for target viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir
 
 # All Build rule for target.
+viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages_py.dir/all
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build.make viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/depend
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build.make viso2_ros/viso2_ros/CMakeFiles/viso2_ros_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 

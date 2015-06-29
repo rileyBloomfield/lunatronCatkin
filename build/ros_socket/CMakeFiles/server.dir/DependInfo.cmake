@@ -17,4 +17,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/rosbox/catkin_ws/build/ros_socket/CMakeFiles/thread.dir/DependInfo.cmake"
+  "/home/rosbox/catkin_ws/build/ros_socket/CMakeFiles/socket.dir/DependInfo.cmake"
+  "/home/rosbox/catkin_ws/build/ros_socket/CMakeFiles/socketServer.dir/DependInfo.cmake"
   )

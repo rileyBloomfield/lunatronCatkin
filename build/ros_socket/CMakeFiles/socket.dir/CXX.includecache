@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rosbox/catkin_ws/src/ros_socket/src/socket.cpp
+strings.h
+-
+unistd.h
+-
+iostream
+-
+errno.h
+-
+socket.h
+/home/rosbox/catkin_ws/src/ros_socket/src/socket.h
+
+/home/rosbox/catkin_ws/src/ros_socket/src/socket.h
+vector
+-
+string
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+sys/types.h
+-
+
