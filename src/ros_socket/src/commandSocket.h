@@ -3,6 +3,10 @@
 #include <time.h>
 #include <pthread.h>
 #include "ros/ros.h"
+#include "std_msgs/String.h"
+#include <iostream>
+
+using namespace std;
 
 class CommandSocket: public Thread{
 private:
@@ -16,22 +20,34 @@ public:
    
    //Main thread execution
    long ThreadMain(void) {
+      //ROS
+      int argc;
+      char **argv;
+      ros::init(argc, argv, "command_socket");
+      ros::NodeHandle nh;
+      //Publishers
+      ros::Publisher driveCommands = nh.advertise<std_msgs::String>("driveCommands",1);
+      ros::Publisher dutyCommands = nh.advertise<std_msgs::String>("dutyCommands",1);
+
       std::cout<<"Connection accepted"<<std::endl;
       ByteArray msg;
 
-      std::string str = "";
-      std::string delimit = ":";
-      std::string command = "";
+      string str = "";
+      string delimit = ":";
 
-      while (1) {
-	socket.Read(msg);
-	std::string str = msg.ToString();
-	std::cout<<str;
-	command = str.substr(0, str.find(delimit));
-
+      while (socket.Read(msg)) {
+	string str = msg.ToString();
+	string token = str.substr(0, str.find(delimit));
 	str.erase(0, str.find(delimit) + delimit.length());
-	if (command == "driveCommand") {
-	   std::cout<<str;
+	if(token == "driveCommand") {
+	    std_msgs::String command;
+	    command.data = str;
+	    driveCommands.publish(command);	
+	}
+	else if (token == "dutyCommand") {
+	    std_msgs::String command;
+	    command.data = str;
+	    dutyCommands.publish(command);
 	}
       }
    isDone = true;

@@ -451,9 +451,9 @@ clean: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_gencpp.dir/clean
 # Target rules for target rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir
 
 # All Build rule for target.
-rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/all
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp.dir/all
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py.dir/all
+rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/all: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_cpp.dir/all
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/depend
 	$(MAKE) -f rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/build.make rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -759,8 +759,8 @@ clean: rosserial/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest_f
 # Target rules for target rosserial/rosserial_client/CMakeFiles/float64_test.dir
 
 # All Build rule for target.
-rosserial/rosserial_client/CMakeFiles/float64_test.dir/all: gtest/CMakeFiles/gtest.dir/all
 rosserial/rosserial_client/CMakeFiles/float64_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+rosserial/rosserial_client/CMakeFiles/float64_test.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f rosserial/rosserial_client/CMakeFiles/float64_test.dir/build.make rosserial/rosserial_client/CMakeFiles/float64_test.dir/depend
 	$(MAKE) -f rosserial/rosserial_client/CMakeFiles/float64_test.dir/build.make rosserial/rosserial_client/CMakeFiles/float64_test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -936,9 +936,9 @@ clean: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_gencpp.dir/clean
 # Target rules for target rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir
 
 # All Build rule for target.
-rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
+rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/all: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/depend
 	$(MAKE) -f rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build.make rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -1874,8 +1874,8 @@ ros_socket/preinstall:
 # Target rules for target ros_socket/CMakeFiles/server.dir
 
 # All Build rule for target.
-ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/socketServer.dir/all
 ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/socket.dir/all
+ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/socketServer.dir/all
 ros_socket/CMakeFiles/server.dir/all: ros_socket/CMakeFiles/thread.dir/all
 	$(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/depend
 	$(MAKE) -f ros_socket/CMakeFiles/server.dir/build.make ros_socket/CMakeFiles/server.dir/build
@@ -2073,9 +2073,9 @@ clean: image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibratio
 # Target rules for target image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir
 
 # All Build rule for target.
+image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/all
 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/all
 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.testapproxsync.py.dir/all
-image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/all: image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/all
 	$(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/depend
 	$(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -3257,8 +3257,8 @@ clean: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_
 
 # All Build rule for target.
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all
-rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all
+rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/all: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_lisp.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -3293,8 +3293,8 @@ clean: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_
 # Target rules for target rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir
 
 # All Build rule for target.
-rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  49 50 51 52 53 54 55 56 57
@@ -3357,8 +3357,8 @@ clean: rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_
 # Target rules for target rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir
 
 # All Build rule for target.
-rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
 rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/build.make rosbridge/rosbridge_suite/rosbridge_library/CMakeFiles/rosbridge_library_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  66 67 68 69 70 71 72 73 74
@@ -3503,9 +3503,9 @@ clean: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_gencpp.dir/clean
 # Target rules for target rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir
 
 # All Build rule for target.
+rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/all: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/all
 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/all: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_cpp.dir/all
 rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/all: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_lisp.dir/all
-rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/all: rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages_py.dir/all
 	$(MAKE) -f rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/build.make rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/depend
 	$(MAKE) -f rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/build.make rosbridge/rosbridge_suite/rosapi/CMakeFiles/rosapi_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles 
@@ -5036,57 +5036,57 @@ viso2_ros/viso2_ros/preinstall:
 
 # All Build rule for target.
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/libviso2/CMakeFiles/viso2.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/depend
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/mono_odometer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  16
@@ -5308,57 +5308,57 @@ clean: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 
 # All Build rule for target.
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/libviso2/CMakeFiles/viso2.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/std_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: depth_cam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/nodelet_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_view/CMakeFiles/bond_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: rosserial/rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_ros_gencfg.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: lunatron_setup_tf/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
-viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: image_pipeline/depth_image_proc/CMakeFiles/pcl_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/std_srvs_generate_messages_py.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/all: viso2_ros/viso2_ros/CMakeFiles/viso2_ros_gencpp.dir/all
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/depend
 	$(MAKE) -f viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/build.make viso2_ros/viso2_ros/CMakeFiles/stereo_odometer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/rosbox/catkin_ws/build/CMakeFiles  90

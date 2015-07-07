@@ -108,6 +108,7 @@ add_executable(server src/Server.cpp)
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(ros_socket_node ros_socket_generate_messages_cpp)
+
 add_library(thread src/thread.cpp)
 add_library(socket src/socket.cpp)
 add_library(socketServer src/socketserver.cpp)

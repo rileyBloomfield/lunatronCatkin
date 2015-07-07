@@ -27,6 +27,7 @@ ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/ma
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/message.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/message_event.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/message_forward.h
+ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/message_operations.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/message_traits.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/names.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/node_handle.h
@@ -62,4 +63,5 @@ ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/ty
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/wall_timer.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/ros/wall_timer_options.h
 ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/rosconsole/macros_generated.h
+ros_socket/CMakeFiles/server.dir/src/Server.cpp.o: /opt/ros/hydro/include/std_msgs/String.h
 
