@@ -1,4 +1,5 @@
 <launch>
+  <node pkg="ros_socket" type="ros_socket" name="server"></node>
   <node pkg="uvc_camera" type="uvc_camera_node" name="uvc_camera" output="screen">
     <param name="width" type="int" value="320" />
     <param name="height" type="int" value="240" />
@@ -42,7 +43,7 @@
   <node name="mono_odometer" pkg="viso2_ros" type="mono_odometer" output="screen">
     <remap from="image" to="$(arg camera)/image_rect" />
     <param name="camera_height" value="0.2" /> <!-- cam is 0.5m above ground -->
-    <param name="camera_pitch" value="-1.57" /> <!-- cam is looking straight forward -->
+    <param name="camera_pitch" value="-1.57" /> <!-- cam is looking straight down -->
   </node>
   <node pkg="ground_velocity" type="ground_velocity" name="ground_velocity"/>
   <node pkg="rosserial_python" type="serial_node.py" name="rosserial">
